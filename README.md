@@ -2,10 +2,36 @@
 [![GitHub stars](https://img.shields.io/github/stars/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/network)
 [![GitHub license](https://img.shields.io/github/license/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/blob/master/LICENSE)
-### FlutterUnit apk 下载体验:
+
+### FlutterUnit 下载体验:
 
 
-![](https://user-gold-cdn.xitu.io/2020/4/19/171930c288fc7de5?w=300&h=390&f=png&s=22671)
+
+| FlutterUnit.apk 下载  | FlutterUnit mac版 下载 | Github仓库地址 | 
+|------|------------|------------|
+|![](https://user-gold-cdn.xitu.io/2020/5/10/171fc4325dbf90b0?w=300&h=390&f=png&s=23688)|![](https://user-gold-cdn.xitu.io/2020/5/4/171e051a0d2cbf37?w=300&h=390&f=png&s=24001)| ![](https://user-gold-cdn.xitu.io/2020/5/4/171e051a0cd9efd7?w=300&h=390&f=png&s=7596)|   
+
+- Android下载链接: http://photo.toly1994.com/release/FlutterUnit.apk
+- Mac下载链接: http://photo.toly1994.com/release$flutter_unit_mac.zip
+
+- ✨ [Flutter Unit mac版支持 ](https://github.com/toly1994328/FlutterUnit/tree/flutter_unit_mac)
+
+---
+
+> 当前Flutter 版本
+
+```
+a1@toly ~ % flutter --version
+Flutter 1.17.0 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision e6b34c2b5c (5 days ago) • 2020-05-02 11:39:18 -0700
+Engine • revision 540786dd51
+Tools • Dart 2.8.1
+```
+
+#### Flutter Unit 周边
+
+- 🔥 [Flutter Unit 更新记录 ](http://king.toly1994.com/FlutterUnit_update.html)
+
 
 ---
 
@@ -16,7 +42,7 @@
 
 > Flutter源码中的可用的组件一共350个左右，纷繁复杂，也没有明确的分类标准
 FlutterUnit 对`大大小小，常用不常用`的组件能收的尽量收录。并`根据个人感觉进行评星 `
-`目前收录组件211个`，每个都有至少一个演示展现和代码展示。
+`目前收录组件213个`，每个都有至少一个演示展现和代码展示。
 
 | . | . | . |
 |------|------------|------------|
@@ -28,7 +54,7 @@ FlutterUnit 对`大大小小，常用不常用`的组件能收的尽量收录。
 
 #### 2. 组件详情页
 
-> `207个组件`全部都有详情页。对于重要的组件会详细展现
+> `213个组件`全部都有详情页。对于重要的组件会详细展现
 一般都会有某个演示对应的组件和属性,尽量做到细致，如果有需要补充，欢迎联系我。
 `最重要的是: 所有的演示展现都是Flutter的组件形成的，而非图片，这就意味着可操作性更高。`
 

@@ -46,6 +46,9 @@ class WidgetDao {
   }
 
   Future<List<Map<String, dynamic>>> queryByIds(List<int> ids) async {
+    if (ids.length == 0) {
+      return [];
+    }
     final db = await storage.db;
 
     var sql = "SELECT * "
@@ -66,7 +69,6 @@ class WidgetDao {
     final db = await storage.db;
     var data = await db.rawQuery('SELECT collected FROM widget WHERE id = ?', [id]);
     var collected = data.toList()[0]['collected']==1;
-    print('collected:$collected');
     return await db.rawQuery(
         "UPDATE widget SET collected = ? "
         "WHERE id = ?",
@@ -78,6 +80,18 @@ class WidgetDao {
     return await db.rawQuery("SELECT * "
         "FROM widget WHERE collected = 1 ORDER BY family,lever DESC");
   }
+
+ Future<bool> collected(int id) async {
+   final db = await storage.db;
+   var data = await db.rawQuery("SELECT collected "
+       "FROM widget WHERE id = ?");
+
+   if(data.length>0){
+     return data[0]['collected'] == 1;
+   }
+   return false;
+ }
+
 }
 
 class SearchArgs {
